@@ -1,0 +1,59 @@
+{
+    "Header": {
+
+        "title": "MAKE A CHANGE",
+        "text": "Food is being wasted at an alarming rate. And we - consumers - are the largest source of it. More than grocery stores and restaurants combined. But there's good news: we can do something about it. Everything we need is right here (and in our fridges)."
+    },
+    "About": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Why": [
+            "One-stop Solution",
+            "Guaranteed Delivery",
+            "Easy Availability",
+            "Government Approved"
+        ],
+        "Why2": [
+            "Saving Food",
+            "Helping the Needy",
+            "NGOs approved",
+            "Clean Drinking Water"
+        ]
+    },
+    "Services": [{
+            "link": "https://forms.gle/bJQgECDYohMx4twA9",
+            "icon": "fa fa-credit-card",
+            "name": "Donate",
+            "text": "India wastes nearly 67 million and It amounts to Rs93,000 cr worth of food, which means it can feed the most populous state of Bihar for a complete year."
+        },
+        {
+            "link": "https://forms.gle/ZQL35B5tRPpFjQAE7",
+            "icon": "fa fa-lightbulb-o",
+            "name": "Volunteer",
+            "text": "By volunteering with us, you are helping to pack and distribute meals to thousands of beneficiary and help to end hunger. Duties can be from picking up food items, packing and redistributing."
+        },
+        {
+            "link": "https://forms.gle/gEVBqaBkNx6HqnSk9",
+            "icon": "fa fa-wheelchair",
+            "name": "Request Help",
+            "text": "All of us need help sometimes. Now, more than ever, Blumne Charity is here to help you get access to food and clean drinking water."
+        }
+    ],
+
+    "Contact": {
+        "address": "XXXXXXXX ",
+        "phone": "XXXXXXXX",
+        "email": "abc@gmail.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Achievements": [{
+            "title": "Title1",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "title": "Title2",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Nisl suscipit adipiscing bibendum est. Tristique nulla aliquet enim tortor at auctor urna nunc id. Amet tellus cras adipiscing enim eu turpis egestas. Tellus at urna condimentum mattis. Lobortis feugiat vivamus at augue eget arcu dictum. Vel elit scelerisque mauris pellentesque pulvinar. Tristique nulla aliquet enim tortor. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Est sit amet facilisis magna etiam tempor orci eu lobortis."
+        }
+    ]
+}

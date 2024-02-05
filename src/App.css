@@ -1,0 +1,44 @@
+body {
+  padding-top: 70px; /* Adjust padding to avoid content being hidden under the fixed navbar */
+}
+
+.navbar {
+  background-color: #333;
+  border: none;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Add styles for the Image Slider */
+.slick-slider {
+  width: 80%;
+  margin: auto;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #333;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #555;
+}
