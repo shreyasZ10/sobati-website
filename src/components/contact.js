@@ -2,7 +2,7 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTelegram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faAddressBook, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faAddressBook, faDonate, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const initialState = {
     name: '',
@@ -99,10 +99,11 @@ export const Contact = (props) => {
                     </div>
                     <br></br>
                     <br></br>
-                    <div className='col-md-12'>
+                    <div className='col-md-10'>
                         <div className='contact-info'>
                             <div className='contact-item'>
                                 <h3>Contact Info</h3>
+                                <br/>
                                 <p>
                                     <span>
                                         <FontAwesomeIcon icon={faAddressBook}/> Address 
@@ -126,6 +127,18 @@ export const Contact = (props) => {
                                     {props.data ? props.data.email : 'loading'}
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div className='col-md-2'>
+                        <div className='text-center'>
+                        <p>
+                            <span>
+                            <FontAwesomeIcon icon={faDonate}/> QR Code
+                            </span>{' '}
+                            <br/>
+                            <img src="/home/qrcode.png" alt="QR code"
+                                style={{ width: '100%', height: '10%' }} />
+                        </p>
                         </div>
                     </div>
                 </div>
