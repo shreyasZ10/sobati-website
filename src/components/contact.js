@@ -23,17 +23,17 @@ export const Contact = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(name, email, message);
-        emailjs
-            .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-            .then(
-                (result) => {
-                    console.log(result.text);
-                    clearState();
-                },
-                (error) => {
-                    console.log(error.text);
-                }
-            );
+        // emailjs
+        //     .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+        //     .then(
+        //         (result) => {
+        //             console.log(result.text);
+        //             clearState();
+        //         },
+        //         (error) => {
+        //             console.log(error.text);
+        //         }
+        //     );
     };
 
     return (
@@ -99,7 +99,7 @@ export const Contact = (props) => {
                     </div>
                     <br></br>
                     <br></br>
-                    <div className='col-md-10'>
+                    <div className='col-md-8'>
                         <div className='contact-info'>
                             <div className='contact-item'>
                                 <h3>Contact Info</h3>
@@ -129,15 +129,12 @@ export const Contact = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-2'>
+                    <div className='col-md-4'>
                         <div className='text-center'>
                         <p>
-                            <span>
-                            <FontAwesomeIcon icon={faDonate}/> QR Code
-                            </span>{' '}
                             <br/>
-                            <img src="/home/qrcode.png" alt="QR code"
-                                style={{ width: '100%', height: '10%' }} />
+                            <img src="/home/qrcode.jpg" alt="QR code"
+                                style={{ width: '40%' }} />
                         </p>
                         </div>
                     </div>
