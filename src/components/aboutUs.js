@@ -5,7 +5,7 @@ export const AboutUs = (props) => {
                 <div class="col col-lg-2"></div>
                 <div class="col-md-auto">
                     <h2 class="x-text-content-text-primary">
-                        Sobati Foundation
+                        {props.data ? props.data.title : 'loading...'}
                     </h2>
                 </div>
                 <div class="col col-lg-2"></div>

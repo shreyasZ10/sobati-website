@@ -15,7 +15,7 @@ export const Achievements = (props) => {
         <div className="row justify-content-md-center mb-4">
           <div className="col-md-auto">
             <h2 className="x-text-content-text-primary">
-              Achievements
+              उपलब्धी
             </h2>
           </div>
         </div>
