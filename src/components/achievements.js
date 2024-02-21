@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Slider from "react-slick";
 import { Carousel } from 'react-bootstrap';
 
 export const Achievements = (props) => {

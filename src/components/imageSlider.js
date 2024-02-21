@@ -16,11 +16,11 @@ const ImageSlider = () => {
   return (
     <Slider {...sliderSettings}>
       <div>
-        <img src="/home/intro-bg1.jpg" alt="Image 1"
+        <img src="/home/intro-bg1.jpg" alt="slider_1"
          style={{ width: '100%', height: '30%' }} />
       </div>
       <div>
-        <img src="/home/intro-bg2.jpg" alt="Image 2"
+        <img src="/home/intro-bg2.jpg" alt="slider_2"
          style={{ width: '100%', height: '30%' }} />
       </div>
       {/* Add more slides as needed */}

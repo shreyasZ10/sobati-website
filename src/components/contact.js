@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTelegram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faAddressBook, faDonate, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faAddressBook, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const initialState = {
     name: '',
@@ -18,7 +17,7 @@ export const Contact = (props) => {
         setState((prevState) => ({ ...prevState, [name]: value }));
     };
 
-    const clearState = () => setState({ ...initialState });
+    // const clearState = () => setState({ ...initialState });
 
     const handleSubmit = (e) => {
         e.preventDefault();
