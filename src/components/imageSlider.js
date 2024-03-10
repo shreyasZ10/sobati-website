@@ -1,4 +1,3 @@
-// src/ImageSlider.js
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -14,17 +13,21 @@ const ImageSlider = () => {
   };
 
   return (
-    <Slider {...sliderSettings}>
-      <div>
-        <img src="/home/intro-bg1.jpg" alt="slider_1"
-         style={{ width: '100%', height: '30%' }} />
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <Slider {...sliderSettings}>
+            <div>
+              <img src="/home/intro-bg3.jpg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
+            </div>
+            <div>
+              <img src="/home/intro-bg1.jpg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
+            </div>
+            {/* Add more slides as needed */}
+          </Slider>
+        </div>
       </div>
-      <div>
-        <img src="/home/intro-bg2.jpg" alt="slider_2"
-         style={{ width: '100%', height: '30%' }} />
-      </div>
-      {/* Add more slides as needed */}
-    </Slider>
+    </div>
   );
 };
 
