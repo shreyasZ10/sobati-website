@@ -23,7 +23,7 @@ export const AboutUs = (props) => {
                 <div className="col-md-8">
                     <p>{displayText}</p>
                     {props.data && props.data.paragraph.split(' ').length > nWords && (
-                        <button onClick={toggleShowFullData}>{buttonLabel}</button>
+                        <button className="btn btn-primary" onClick={toggleShowFullData}>{buttonLabel}</button>
                     )}
                 </div>
                 <div className="col-md-4">
