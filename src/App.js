@@ -6,6 +6,7 @@ import { AboutUs } from './components/aboutUs';
 import JsonData from './data/data.json';
 import { Achievements } from './components/achievements';
 import { Contact } from './components/contact';
+import { Donate } from './components/donate';
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({})
@@ -28,6 +29,10 @@ const App = () => {
 
       <div id="achievements" className="section">
         <Achievements data={landingPageData.Achievements}/>
+      </div>
+
+      <div id="donate" className="section">
+        <Donate data={landingPageData.Donate}/>
       </div>
 
       <div id="contact" className="section">

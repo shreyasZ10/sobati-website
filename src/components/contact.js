@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -17,34 +18,19 @@ export const Contact = (props) => {
         setState((prevState) => ({ ...prevState, [name]: value }));
     };
 
-    // const clearState = () => setState({ ...initialState });
-
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(name, email, message);
-        // emailjs
-        //     .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-        //     .then(
-        //         (result) => {
-        //             console.log(result.text);
-        //             clearState();
-        //         },
-        //         (error) => {
-        //             console.log(error.text);
-        //         }
-        //     );
     };
 
     return (
         <div>
             <div id='contact' className='container'>
                 <div className='row'>
-                    <div className='col-md-12'>
+                    <div className='col-md-12 text-center'>
                         <div className='section-title'>
-                            <h2>Get In Touch</h2>
-                            <p>
-                                Please fill out the form below to send us an email, and we will get back to you as soon as possible.
-                            </p>
+                            <h2>संपर्क साध</h2>
+                            <p>कृपया खालील फॉर्म भरा आणि आपला संदेश पाठवा, आम्ही पुन्हा जलद काहीतरी तुम्हाला परत येऊ</p>
                         </div>
                         <form name='sentMessage' validate onSubmit={handleSubmit}>
                             <div className='row'>
@@ -55,7 +41,7 @@ export const Contact = (props) => {
                                             id='name'
                                             name='name'
                                             className='form-control'
-                                            placeholder='Name'
+                                            placeholder='नाव'
                                             required
                                             onChange={handleChange}
                                         />
@@ -68,7 +54,7 @@ export const Contact = (props) => {
                                             id='email'
                                             name='email'
                                             className='form-control'
-                                            placeholder='Email'
+                                            placeholder='ईमेल'
                                             required
                                             onChange={handleChange}
                                         />
@@ -81,31 +67,29 @@ export const Contact = (props) => {
                                     id='message'
                                     className='form-control'
                                     rows='4'
-                                    placeholder='Message'
+                                    placeholder='संदेश'
                                     required
                                     onChange={handleChange}
                                 ></textarea>
                             </div>
-                            <div id='success'>
-                                <br></br>
-                            </div>
+                            <div id='success'><br/></div>
                             <div className="text-center">
-                            <button type='submit' className='btn btn-primary btn-lg mx-auto'>
-                                Send Message
-                            </button>
+                                <button type='submit' className='btn btn-primary btn-lg mx-auto'>
+                                    संदेश पाठवा
+                                </button>
                             </div>
                         </form>
                     </div>
-                    <br></br>
-                    <br></br>
-                    <div className='col-md-8'>
+                    <br/>
+                    <br/>
+                    <div className='col-md-8 offset-md-2'>
                         <div className='contact-info'>
                             <div className='contact-item'>
-                                <h3>Contact Info</h3>
+                                <h3>संपर्क माहिती</h3>
                                 <br/>
                                 <p>
                                     <span>
-                                        <FontAwesomeIcon icon={faAddressBook}/> Address 
+                                        <FontAwesomeIcon icon={faAddressBook}/> पत्ता 
                                     </span>{' '}
                                     {props.data ? props.data.address : 'loading'}
                                 </p>
@@ -113,7 +97,7 @@ export const Contact = (props) => {
                             <div className='contact-item'>
                                 <p>
                                     <span>
-                                        <FontAwesomeIcon icon={faPhone}/> Phone
+                                        <FontAwesomeIcon icon={faPhone}/> फोन
                                     </span>{' '}
                                     {props.data ? props.data.phone : 'loading'}
                                 </p>
@@ -121,23 +105,15 @@ export const Contact = (props) => {
                             <div className='contact-item'>
                                 <p>
                                     <span>
-                                    <FontAwesomeIcon icon={faEnvelope}/> Email
+                                        <FontAwesomeIcon icon={faEnvelope}/> ईमेल
                                     </span>{' '}
                                     {props.data ? props.data.email : 'loading'}
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4'>
-                        <div className='text-center'>
-                        <p>
-                            <br/>
-                            <img src="/home/qrcode.jpg" alt="QR code"
-                                style={{ width: '40%' }} />
-                        </p>
-                        </div>
-                    </div>
                 </div>
+                <br></br>
                 <div className='row mt-5'>
                     <div className='col-md-12 text-center'>
                         <div className="social">
@@ -165,7 +141,7 @@ export const Contact = (props) => {
             <div id='footer'>
                 <div className='container text-center'>
                     <p>
-                        &copy; 2024 Sobati Foundation
+                        &copy; २०२४ Sobati Foundation
                     </p>
                 </div>
             </div>
