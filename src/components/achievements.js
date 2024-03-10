@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 export const Achievements = (props) => {
     const [index, setIndex] = useState(0);
-    const [showFullText, setShowFullText] = useState(Array(props.data.length).fill(false));
+    const [showFullText, setShowFullText] = useState(Array(props.data?.length).fill(false));
 
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
