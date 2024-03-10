@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export const AboutUs = (props) => {
     const [showFullData, setShowFullData] = useState(false);
-    const [nWords, setNWords] = useState(50); // Initial number of words to display
+    const [nWords] = useState(50); // Initial number of words to display
 
     const toggleShowFullData = () => {
         setShowFullData(!showFullData);
