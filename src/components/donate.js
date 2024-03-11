@@ -5,7 +5,7 @@ export const Donate = (props) => {
         <div id='donate' className='container'>
             <div className='row'>
                 <div className='col-md-12 text-center'>
-                    <h2 className='section-title'>आत्ता दान करा</h2>
+                    <h2 className='section-title'>कृपया दान करा</h2>
                 </div>
             </div>
             <div className='row'>
