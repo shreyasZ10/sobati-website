@@ -9,38 +9,37 @@ import { Contact } from './components/contact';
 import { Donate } from './components/donate';
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({})
+  const [landingPageData, setLandingPageData] = useState({});
+  
   useEffect(() => {
-    setLandingPageData(JsonData)
-  }, [])
+    setLandingPageData(JsonData);
+  }, []);
+
   return (
-    <div>
-      <NavBar />
+          <div>
+        <NavBar />
+            <div id="home" className="section">
+              <ImageSlider />
+            </div>
 
-      {/* Home section with the image slider */}
-      <div id="home" className="section">
-        <ImageSlider />
-      </div>
+            <div id="about" className="section">
+              <AboutUs data={landingPageData.About} />
+            </div>
 
-      {/* Other sections */}
-      <div id="about" className="section">
-        <AboutUs data={landingPageData.About} />
-      </div>
+            <div id="achievements" className="section">
+              <Achievements data={landingPageData.Achievements}/>
+            </div>
 
-      <div id="achievements" className="section">
-        <Achievements data={landingPageData.Achievements}/>
-      </div>
+            <div id="donate" className="section">
+              <Donate data={landingPageData.Donate}/>
+            </div>
 
-      <div id="donate" className="section">
-        <Donate data={landingPageData.Donate}/>
+            <div id="contact">
+              <Contact data={landingPageData.Contact}/>
+            </div>
+          {/* Add more sections as needed */}
       </div>
-
-      <div id="contact" className="section">
-        <Contact data={landingPageData.Contact}/>
-      </div>
-      {/* Add more sections as needed */}
-    </div>
-  );
+      );
 };
 
 export default App;
