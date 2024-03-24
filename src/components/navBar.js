@@ -7,7 +7,7 @@ const NavBar = () => {
   const location = useLocation(); // Get the current location
 
     // If the current route is '/gallery', only render the Home link
-    if (location.pathname === '/gallery' || location.pathname === '/articles') {
+    if (location.pathname === '/gallery' || location.pathname === '/articles' || location.pathname === '/ourteam') {
       return (
         <Navbar collapseOnSelect expand="md" fixed="top" bg="dark" variant="dark">
       <Navbar.Brand href="/#home" className="ml-md-5">
@@ -23,6 +23,7 @@ const NavBar = () => {
           {/* Use Link component for Gallery link */}
           <Nav.Link as={Link} to="/gallery" className="mr-md-4">Gallery</Nav.Link>
           <Nav.Link as={Link} to="/articles" className="mr-md-4">Articles</Nav.Link>
+          <Nav.Link as={Link} to="/ourteam" className="mr-md-4">Our Team</Nav.Link>
           <Nav.Link href="/#contact" className="mr-md-4">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
@@ -45,6 +46,7 @@ const NavBar = () => {
           {/* Use Link component for Gallery link */}
           <Nav.Link as={Link} to="/gallery" className="mr-md-4">Gallery</Nav.Link>
           <Nav.Link as={Link} to="/articles" className="mr-md-4">Articles</Nav.Link>
+          <Nav.Link as={Link} to="/ourteam" className="mr-md-4">Our Team</Nav.Link>
           <Nav.Link href="#contact" className="mr-md-4">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
