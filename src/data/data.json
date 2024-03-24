@@ -36,6 +36,62 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
+    "Team": [
+        {
+            "name": "PRAMOD GANPAT SAWANT",
+            "position": "President",
+            "contact": "9869166100",
+            "image": "/home/team/image1.jpg"
+        },
+        {
+            "name": "MAHESH DATTARAM BURTE",
+            "position": "Secretary",
+            "contact": "9869001554",
+            "image": "/home/team/image2.jpg"
+        },
+        {
+            "name": "DEEPAK GOPAL ZADRAO",
+            "position": "Treasurer",
+            "contact": "9869039008",
+            "image": "/home/team/image3.jpg"
+        },
+        {
+            "name": "JITENDRA BHASKAR LONE",
+            "position": "Committee member",
+            "contact": "9869258934",
+            "image": "/home/team/image4.jpg"
+        },
+        {
+            "name": "MANOJ  ANANT DHOTRE",
+            "position": "Committee member",
+            "contact": "9869258934",
+            "image": "/home/team/image5.jpg"
+        },
+        {
+            "name": "PRASAD NARAYAN SHEJWALKAR",
+            "position": "Committee member",
+            "contact": "9969397662",
+            "image": "/home/team/image6.jpg"
+        },
+        {
+            "name": "AVINASH P. SARVEKAR",
+            "position": "Committee member",
+            "contact": "9869118723",
+            "image": "/home/team/image7.jpg"
+        },
+        {
+            "name": "YASHWANT G. SATAM",
+            "position": "Committee member",
+            "contact": "9869400440",
+            "image": "/home/team/image8.jpg"
+        },
+        {
+            "name": "RAJU S. KULANKAR",
+            "position": "Committee member",
+            "contact": "9869402216",
+            "image": "/home/team/image1.jpg"
+        }
+    ],
     "Donate": {
         "name": "Sobati Social Foundation",
         "accountNo": "50712250002668",
