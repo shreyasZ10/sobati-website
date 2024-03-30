@@ -5,7 +5,7 @@ import '../App.css';
 import JsonData from '../data/data.json';
 import TeamMember from '../components/teamMember';
 
-const OurTeamPage = () => {
+const OurStudentsPage = () => {
     const [landingPageData, setLandingPageData] = useState({});
 
     useEffect(() => {
@@ -17,15 +17,13 @@ const OurTeamPage = () => {
       <NavBar />
       <div className="container pt-5">
         <div className="text-center">
-          <h3>आमचा संघ</h3>
+          <h3>आमचे विद्यार्थी</h3>
         </div>
         <div className="row justify-content-center">
-          {landingPageData?.Team?.map((member, index) => (
+          {landingPageData?.Students?.map((member, index) => (
             <div key={index} className="col-md-6 col-lg-4 mb-4">
               <TeamMember
                 name={member.name}
-                position={member.position}
-                contactNumber={member.contact}
                 photo={member.image}
               />
             </div>
@@ -39,4 +37,4 @@ const OurTeamPage = () => {
   );
 };
 
-export default OurTeamPage;
+export default OurStudentsPage;

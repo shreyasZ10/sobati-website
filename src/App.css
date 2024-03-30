@@ -1,7 +1,8 @@
 body {
-  padding-top: 70px; /* Adjust padding to avoid content being hidden under the fixed navbar */
+  padding-top: 310px; /* Adjust padding to avoid content being hidden under the fixed navbar */
 }
 
+/* App.css */
 .navbar {
   background-color: #333;
   border: none;
@@ -15,6 +16,29 @@ body {
 
 .navbar a:hover {
   background-color: #555;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 0 !important;
 }
 
 .section {

@@ -89,10 +89,41 @@
             "name": "RAJU S. KULANKAR",
             "position": "Committee member",
             "contact": "9869402216",
-            "image": "/home/team/image1.jpg"
+            "image": "/home/team/image9.jpg"
+        }
+    ],
+    "Students": [
+        {
+            "name": "RAJESH SATISH SHINDE",
+            "image": "/home/students/image1.jpg"
+        },
+        {
+            "name": "SURAJ WARALU PODADI",
+            "image": "/home/students/image2.jpg"
+        },
+        {
+            "name": "SACHIN PEKA ARKI",
+            "image": "/home/students/image3.jpg"
+        },
+        {
+            "name": "KARTIK SUTARKAR",
+            "image": "/home/students/image4.jpg"
+        },
+        {
+            "name": "ARVIND CHAVAN",
+            "image": "/home/students/image5.jpg"
+        },
+        {
+            "name": "GAYATRI GIRI",
+            "image": "/home/students/default.jpg"
+        },
+        {
+            "name": "JAKIR HUSEIN SHAIKH",
+            "image": "/home/students/default.jpg"
         }
     ],
     "Donate": {
+        "title": "देणगी साठी",
         "name": "Sobati Social Foundation",
         "accountNo": "50712250002668",
         "bank": "Canara Bank",
