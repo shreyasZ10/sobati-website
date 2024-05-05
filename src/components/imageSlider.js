@@ -18,10 +18,16 @@ const ImageSlider = () => {
         <div className="col">
           <Slider {...sliderSettings}>
             <div>
-              <img src="/home/intro-bg3.jpg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
+              <img src="/home/slider/intro-bg1.jpeg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
             </div>
             <div>
-              <img src="/home/intro-bg1.jpg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
+              <img src="/home/slider/intro-bg2.jpg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
+            </div>
+            <div>
+              <img src="/home/slider/intro-bg3.jpg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
+            </div>
+            <div>
+              <img src="/home/slider/intro-bg4.jpg" alt="slider_1" className="img-fluid"  style={{ width: '300%', height: '50%' }}/>
             </div>
             {/* Add more slides as needed */}
           </Slider>

@@ -5,7 +5,7 @@
         "text": "Food is being wasted at an alarming rate. And we - consumers - are the largest source of it. More than grocery stores and restaurants combined. But there's good news: we can do something about it. Everything we need is right here (and in our fridges)."
     },
     "About": {
-        "title": "सोबती फाउंडेशन",
+        "title": "सोबती सोशल फाउंडेशन",
         "paragraph": "कुलाबा वेधशाळेतील समविचारी मित्रांचा समूह म्हणजे 'सोबती '.  या सर्वांना वाटतं होत की  आपण समाजाचे काही देणे लागतो, त्याची उतराई आपण कशी करायची ? वैयक्तिक पातळीवर आपण काही देणगी देत असू पण तीच मदत एकत्र केल्यास  आणखी चांगले काम करू शकू या जाणिवेतून असे ठरले की दरवर्षी उत्पन्नातून काही वाटा बाजुला काढून   गरजूंना / संस्थांना आपण मदत करूया . २०१३ साली सोबती ग्रुप केल्यानंतर दरवर्षी सामाजिक संस्थांना भेट देत असू आणि त्या संस्थे सोबत  काळ व्यतीत करून, त्यांच्या गरजा जाणून घेत असू आणि त्यांना फुल ना फुलाची पाकळी या जाणिवेतून आर्थिक मदत करत असू, त्यांना आवश्यक असे साहित्य देत असू. आमचा हा उपक्रम समजल्यावर काही समविचारी सहकार्यांनी यथाशक्ती मदतीचा हात पुढे केला. या अनुभवातून आम्ही स्वतंत्रपणे काम सुरू केले व मुख्यतः शिक्षणापासून वंचित मुलांवर लक्ष केंद्रित करण्याचे ठरवले व त्यादृष्टीने काम सुरू केले. याबरोबरच या मुलांच्या सर्वांगीण विकासासाठी त्यांच्या कुटुंबाची साथ मिळवताना त्यांना भेडसावणाऱ्या समस्या सोडवण्यासाठी प्राधान्य दिले. या कामा बरोबर आकस्मिक समस्या आल्यास त्यांना मदत करण्याचे संस्थेचे ध्येय आहे. यासाठी बांधिलकी च्या भावनेतून २०१८ साली ‘सोबती सोशल फाऊंडेशन’ या नोंदणीकृत संस्थेमध्ये रूपांतर झाले आणि तीन वर्षातच संस्थेला ८० जी प्रमाणपत्र  मिळाले आहे त्यामुळे देणगीदार यांना आयकरात सूट मिळते आहे. हे आणि आणखी काही सामाजिक उपक्रम सोबती सोशल फाऊंडेशन  करत आहे  ज्या विश्वासाने लोकांनी मदतीचा हात पुढे केला आहे त्या विश्वासाला प्रामाणिक राहून भविष्यात समजोपयोगी आणखी उपक्रम राबवण्याचे सोबती सोशल फाऊंडेशनचे लक्ष आहे. लोकांनी सढळ हस्ते दिलेले आर्थिक सहाय्य योग्य ठिकाणी पोहचेल याची हमी ..तसेच देणाऱ्याला व घेणाऱ्याला ही आनंद मिळेल हाच सोबतीचा ध्यास आणि विश्वास.",
         "photo": "aboutUs.jpg"
     },
@@ -41,77 +41,77 @@
             "name": "PRAMOD GANPAT SAWANT",
             "position": "President",
             "contact": "9869166100",
-            "image": "/home/team/image1.jpg"
+            "image": "/home/team/image1.jpeg"
         },
         {
             "name": "MAHESH DATTARAM BURTE",
             "position": "Secretary",
             "contact": "9869001554",
-            "image": "/home/team/image2.jpg"
+            "image": "/home/team/image2.jpeg"
         },
         {
             "name": "DEEPAK GOPAL ZADRAO",
             "position": "Treasurer",
             "contact": "9869039008",
-            "image": "/home/team/image3.jpg"
+            "image": "/home/team/image3.jpeg"
         },
         {
             "name": "JITENDRA BHASKAR LONE",
             "position": "Committee member",
-            "contact": "9869258934",
-            "image": "/home/team/image4.jpg"
+            "contact": "9082872206",
+            "image": "/home/team/image4.jpeg"
         },
         {
             "name": "MANOJ  ANANT DHOTRE",
             "position": "Committee member",
             "contact": "9869258934",
-            "image": "/home/team/image5.jpg"
+            "image": "/home/team/image5.jpeg"
         },
         {
             "name": "PRASAD NARAYAN SHEJWALKAR",
             "position": "Committee member",
             "contact": "9969397662",
-            "image": "/home/team/image6.jpg"
+            "image": "/home/team/image6.jpeg"
         },
         {
             "name": "AVINASH P. SARVEKAR",
             "position": "Committee member",
             "contact": "9869118723",
-            "image": "/home/team/image7.jpg"
+            "image": "/home/team/image7.jpeg"
         },
         {
             "name": "YASHWANT G. SATAM",
             "position": "Committee member",
             "contact": "9869400440",
-            "image": "/home/team/image8.jpg"
+            "image": "/home/team/image8.jpeg"
         },
         {
             "name": "RAJU S. KULANKAR",
             "position": "Committee member",
             "contact": "9869402216",
-            "image": "/home/team/image9.jpg"
+            "image": "/home/team/image9.jpeg"
         }
     ],
     "Students": [
         {
             "name": "RAJESH SATISH SHINDE",
-            "image": "/home/students/image1.jpg"
+            "image": "/home/students/image1.jpeg"
         },
         {
             "name": "SURAJ WARALU PODADI",
-            "image": "/home/students/image2.jpg"
+            "image": "/home/students/image2.jpeg"
         },
         {
             "name": "SACHIN PEKA ARKI",
-            "image": "/home/students/image3.jpg"
+            "image": "/home/students/image3.jpeg"
         },
         {
             "name": "KARTIK SUTARKAR",
-            "image": "/home/students/image4.jpg"
+            "image": "/home/students/image4.jpeg"
         },
         {
             "name": "ARVIND CHAVAN",
-            "image": "/home/students/image5.jpg"
+            "image": "/home/students/image5.jpeg"
         },
         {
             "name": "GAYATRI GIRI",

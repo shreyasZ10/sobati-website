@@ -60,7 +60,7 @@ export const Contact = (props) => {
                     </div>
                     <div className='col-lg-6'>
                         <div className='section-title'>
-                            <h2>संपर्ग साधा</h2>
+                            <h2>संपर्क साधा</h2>
                             <br/>
                             <form name='sentMessage' validate onSubmit={handleSubmit}>
                                 <div className='row'>
