@@ -3,16 +3,9 @@ import { Carousel } from 'react-bootstrap';
 
 export const Achievements = (props) => {
     const [index, setIndex] = useState(0);
-    const [showFullText, setShowFullText] = useState(Array(props.data?.length).fill(false));
 
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
-    };
-
-    const handleToggleText = (slideIndex) => {
-        const updatedShowFullText = [...showFullText];
-        updatedShowFullText[slideIndex] = !updatedShowFullText[slideIndex];
-        setShowFullText(updatedShowFullText);
     };
 
     return (
@@ -47,21 +40,13 @@ export const Achievements = (props) => {
                                                             <img src={d.image} alt={d.title} className="img-fluid" style={{ maxHeight: '300px' }} />
                                                         </div>
                                                         <div className="col-md-6">
-                                                            <p>{showFullText[i] ? d.text : `${d.text.slice(0, 100)}...`}</p>
-                                                            <br></br>
-                                                            <button className="btn btn-primary" onClick={() => handleToggleText(i)}>
-                                                                {showFullText[i] ? 'Read Less' : 'Read More'}
-                                                            </button>
+                                                            <p>{d.text}</p>
                                                         </div>
                                                     </>
                                                 ) : (
                                                     <>
                                                         <div className="col-md-6 order-2 order-md-1">
-                                                            <p>{showFullText[i] ? d.text : `${d.text.slice(0, 100)}...`}</p>
-                                                            <br></br>
-                                                            <button className="btn btn-primary" onClick={() => handleToggleText(i)}>
-                                                                {showFullText[i] ? 'Read Less' : 'Read More'}
-                                                            </button>
+                                                            <p>{d.text}</p>
                                                         </div>
                                                         <div className="col-md-6 order-1 order-md-2">
                                                             <img src={d.image} alt={d.title} className="img-fluid" style={{ maxHeight: '300px' }} />
