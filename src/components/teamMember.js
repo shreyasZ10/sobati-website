@@ -15,8 +15,8 @@ const TeamMember = ({ name, position, contactNumber, photo }) => {
         <div className="col-md-8">
           <div className="card-body">
             <h5 className="card-title">नाव: {name}</h5> {/* Name */}
-            <p className="card-text">पद: {position}</p> {/* Position */}
-            <p className="card-text">संपर्क क्र.: {contactNumber}</p> {/* Contact Number */}
+            {position && <p className="card-text">पद: {position}</p>}
+            {contactNumber && <p className="card-text">संपर्क क्र.: {contactNumber}</p>}
           </div>
         </div>
       </div>

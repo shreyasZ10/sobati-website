@@ -10,9 +10,9 @@ const images = importAll(require.context('../../public/home/gallery', false, /\.
     <div className="container">
         <br></br>
         <br></br>
-      <h2 className="text-center mt-5 mb-4">
+      <h1 className="text-center mt-5 mb-4">
         प्रतिमा गॅलरी
-    </h2>
+    </h1>
       <div className="row">
         {images.map((image, index) => (
           <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4">

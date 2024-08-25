@@ -17,7 +17,7 @@ const OurStudentsPage = () => {
       <NavBar />
       <div className="container pt-5">
         <div className="text-center">
-          <h3>आमचे विद्यार्थी</h3>
+          <h1>आमचे विद्यार्थी</h1>
         </div>
         <div className="row justify-content-center">
           {landingPageData?.Students?.map((member, index) => (

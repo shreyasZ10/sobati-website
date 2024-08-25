@@ -13,9 +13,9 @@ export const Achievements = (props) => {
             <div id='achievements' className='container-fluid text-center p-4'>
                 <div className="row justify-content-md-center mb-4">
                     <div className="col-md-auto">
-                        <h2 className="x-text-content-text-primary">
+                        <h1 className="x-text-content-text-primary">
                             उपलब्धी
-                        </h2>
+                        </h1>
                     </div>
                 </div>
                 <div className="row justify-content-center">
@@ -31,7 +31,7 @@ export const Achievements = (props) => {
                                 ? props.data.map((d, i) => (
                                     <Carousel.Item key={`${d.title}-${i}`}>
                                         <div className='text-center'>
-                                            <h3>{d.title}</h3>
+                                            <h2>{d.title}</h2>
                                             <br></br>
                                             <div className="row">
                                                 {index % 2 === 0 ? (

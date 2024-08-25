@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
@@ -23,8 +22,20 @@ export const Contact = (props) => {
     };
 
     return (
-        <div style={{ backgroundColor: '#333', color: 'white', paddingTop: '10px' }}>
-            <div id='contact' className='container'>
+        <div 
+            style={{ 
+                display: 'flex', 
+                flexDirection: 'column', 
+                minHeight: '60vh', 
+                backgroundColor: '#333', 
+                color: 'white', 
+                paddingTop: '10px',
+                margin: 0,
+            }}
+        >
+            <br></br>
+            <footer id='footer' style={{ margin: 0, padding: 0 }}>
+            <div id='contact' className='container' style={{ flex: 1 }}>
                 <div className='row'>
                     <div className='col-lg-6'>
                         <div className='section-title'>
@@ -116,13 +127,10 @@ export const Contact = (props) => {
                 </div>
             </div>
             <br/>
-            <footer id='footer'>
                 <div className='container text-center'>
-                    <img src='/home/logo/logo2.jpeg' alt='logo' style={{ width: '50%'}}/>
-                    <br/><br/>
-                    <p>
-                        &copy; २०२४ Sobati Foundation
-                    </p>
+                    <img src='/home/logo/logo2.jpeg' alt='logo' style={{ width: '50%' }} />
+                    <br /><br />
+                    <p>&copy; २०२४ Sobati Foundation</p>
                 </div>
             </footer>
         </div>

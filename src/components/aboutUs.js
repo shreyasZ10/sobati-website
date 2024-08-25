@@ -16,9 +16,9 @@ export const AboutUs = (props) => {
         <div className="container-sm">
             <div className="row justify-content-md-center">
                 <div className="col-md-12 text-center mb-4">
-                    <h2 className="x-text-content-text-primary">
+                    <h1 className="x-text-content-text-primary">
                         {props.data ? props.data.title : 'loading...'}
-                    </h2>
+                    </h1>
                 </div>
                 <div className="col-md-8">
                     <p>{displayText}</p>
