@@ -5,9 +5,10 @@ export const Donate = (props) => {
         <div id='donate' className='container'>
             <div className='row'>
                 <div className='col-md-12 text-center'>
-                    <h2 className='section-title'>{props.data ? props.data.title: 'loading'}</h2>
+                    <h1 className='section-title'>{props.data ? props.data.title: 'loading'}</h1>
                 </div>
             </div>
+            <br></br>
             <div className='row'>
                 <div className='col-md-8'>
                     <div className='contact-info'>

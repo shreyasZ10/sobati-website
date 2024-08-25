@@ -17,7 +17,7 @@ const OurTeamPage = () => {
       <NavBar />
       <div className="container pt-5">
         <div className="text-center">
-          <h3>आमचा संघ</h3>
+          <h1>आमचा संघ</h1>
         </div>
         <div className="row justify-content-center">
           {landingPageData?.Team?.map((member, index) => (
